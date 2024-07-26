@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchQuestions, nextQuestion, incrementScore, resetQuiz } from './quizSlice';
+import { nextQuestion, incrementScore, resetQuiz } from './quizSlice';
 
 const Quiz = () => {
     const dispatch = useDispatch();
