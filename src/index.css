@@ -123,9 +123,7 @@ select {
 
 select:hover {
   background-color: #7091E6;
-  /* Secondary color */
   border-color: #3D52A0;
-  /* Primary color */
 }
 
 .selectform {
@@ -133,4 +131,11 @@ select:hover {
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+.logo {
+  width: 150px;
+  -webkit-filter: drop-shadow(30px 10px 10px #7091E6);
+  filter: drop-shadow(30px 10px 10px #7091E6);
+
 }
