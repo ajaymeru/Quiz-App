@@ -16,6 +16,13 @@ body {
   /* height: 70vh; */
 }
 
+@media(max-width:500px) {
+  #root {
+    width: 90%;
+    height: auto;
+  }
+}
+
 /* Main application container */
 .App {
   margin: 0 auto;
@@ -131,6 +138,7 @@ select:hover {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .logo {
